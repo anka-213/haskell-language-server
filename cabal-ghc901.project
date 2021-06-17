@@ -97,6 +97,7 @@ constraints:
     optparse-applicative < 0.16
     -- These plugins doesn't work on GHC9 yet
     , haskell-language-server -brittany -class -eval -fourmolu -ormolu -splice -stylishhaskell -tactic -refineImports
+    , active > 0.2.0.14
 
 
 allow-newer:
